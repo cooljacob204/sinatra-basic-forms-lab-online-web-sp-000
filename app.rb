@@ -11,4 +11,5 @@ class App < Sinatra::Base
   
   post '/puppy' do
     Puppy.new(params[:], params[:], params[:])
+  end
 end
